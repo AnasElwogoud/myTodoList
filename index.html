@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="para mt-2 mb-4 w-100">
+        <h2>Todo List</h2>
+    </div>
+    <div class="container text-center">
+        <form class="d-flex flex-wrap mb-3 justify-content-center row">
+            <div class="col-5">
+                <input type="text" class="form-control title mb-1" aria-describedby="title" placeholder="Title"
+                    required>
+                <textarea class="form-control" placeholder="Description" style="height: 100px" required></textarea>
+            </div>
+            <!-- <div class="col-8">
+                <input type="text" class="form-control title" aria-describedby="title" placeholder="Title" required>
+            </div>
+            <div class="col-8 me-0">
+                <textarea class="form-control" placeholder="Description" style="height: 100px" required></textarea>
+            </div> -->
+            <div class="col-1 d-flex align-items-center">
+                <button type="submit" class="btn btn-primary rounded-2">Add <i class="fa-solid fa-plus"></i></button>
+            </div>
+        </form>
+        <table class="table" id="myTable">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Done</th>
+                    <th scope="col">Remove</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <footer class="mt-5 p-3 h6">All copyrights <span class="text-info">&copy;</span> Anas Elwogoud <a
+            href="https://www.linkedin.com/in/anas-elwogoud-elsayed-b43080217/"><i
+                class="fa-brands fa-linkedin px-2 text-info"></i></a> <a href="https://www.facebook.com/MazenEgy/"><i
+                class="fa-brands fa-facebook pe-2 text-info"></i></a><a href="mailto:anaselwogoud74@gmail.com"><i
+                class="fa-sharp fa-solid fa-at px-1 text-info"></i></a>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

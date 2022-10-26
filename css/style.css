@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imgs/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 42%, rgba(0, 212, 255, 1) 100%); */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+table {
+    background-color: rgba(0, 0, 0, .6);
+    color: white !important;
+}
+
+.para {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 3px;
+}
+
+footer,
+header {
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    padding: 5px !important;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
