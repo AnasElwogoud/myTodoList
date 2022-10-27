@@ -9,10 +9,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 42%, rgba(0, 212, 255, 1) 100%); */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
 }
 
@@ -38,4 +34,12 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+input {
+    border: none !important;
+}
+
+textarea {
+    resize: none;
 }
